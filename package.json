@@ -8,7 +8,8 @@
     "clear_jest": "jest --clearCache",
     "deploy": "gh-pages -d dist -r https://github.com/zakrnem/battleship",
     "build": "webpack --mode production",
-    "start": "webpack --mode development --watch"
+    "start": "webpack --mode development --watch",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",

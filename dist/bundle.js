@@ -120,13 +120,23 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/header.js":
+/*!***********************!*\
+  !*** ./src/header.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   header: () => (/* binding */ header)\n/* harmony export */ });\nfunction header() {\n    const header = document.createElement('header')\n\n    const about = document.createElement('button')\n    about.textContent = 'About me'\n\n    \n}\n\n//# sourceURL=webpack://portfolio-site/./src/header.js?");
+
+/***/ }),
+
 /***/ "./src/homepage.js":
 /*!*************************!*\
   !*** ./src/homepage.js ***!
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   homepage: () => (/* binding */ homepage)\n/* harmony export */ });\n/* harmony import */ var footer_zkrnem__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! footer-zkrnem */ \"./node_modules/footer-zkrnem/index.js\");\n\n\nfunction homepage() {\n    (0,footer_zkrnem__WEBPACK_IMPORTED_MODULE_0__.footer)()\n    const content = document.getElementById('content')\n    content.textContent = 'Hello World!'\n}\n\n//# sourceURL=webpack://portfolio-site/./src/homepage.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   homepage: () => (/* binding */ homepage)\n/* harmony export */ });\n/* harmony import */ var footer_zkrnem__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! footer-zkrnem */ \"./node_modules/footer-zkrnem/index.js\");\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header */ \"./src/header.js\");\n\n\n\nfunction homepage() {\n    (0,footer_zkrnem__WEBPACK_IMPORTED_MODULE_0__.footer)()\n    ;(0,_header__WEBPACK_IMPORTED_MODULE_1__.header)()\n    const content = document.getElementById('content')\n    content.textContent = 'Hello World!'\n}\n\n//# sourceURL=webpack://portfolio-site/./src/homepage.js?");
 
 /***/ }),
 

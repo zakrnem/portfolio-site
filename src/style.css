@@ -1,3 +1,19 @@
-* {
-    margin: 0;
+:root {
+    --main: #e6e3da;
+}
+
+header {
+    background-color: var(--main);
+    box-shadow: 0 5px 5px rgb(178 178 178);
+    padding: 1rem 1.5rem;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+header > button {
+    background-color: var(--main);
+    padding: 0.25rem;
+    border: solid 1px black;
 }

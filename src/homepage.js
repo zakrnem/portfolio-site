@@ -1,9 +1,9 @@
 import { footer } from 'footer-zkrnem'
 import { header } from './header'
+import { about } from './about'
 
 export function homepage() {
-    footer()
     header()
-    const content = document.getElementById('content')
-    content.textContent = 'Hello World!'
+    about()
+    footer()
 }

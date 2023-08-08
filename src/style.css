@@ -1,19 +1,35 @@
 :root {
-    --main: #e6e3da;
+    --main: #000000;
+    --about: #f4e6db;
 }
 
 header {
     background-color: var(--main);
-    box-shadow: 0 5px 5px rgb(178 178 178);
-    padding: 1rem 1.5rem;
+    padding: 0.3rem 1.5rem;
     display: flex;
     gap: 1rem;
-    margin-bottom: 1rem;
     justify-content: center;
 }
 
 header > button {
     background-color: var(--main);
-    padding: 0.25rem;
-    border: solid 1px black;
+    color: white;
+    padding: 0.2rem 1rem;
+    border: solid 1px white;
+}
+
+.about {
+    background-color: var(--about);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem 0.75rem;
+}
+
+.user-headshot {
+    width: 30vw;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: 100% 50%;
 }

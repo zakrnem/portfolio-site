@@ -13,9 +13,14 @@ export function about() {
   userImage.alt = 'Zakr Nem headshot'
   imageSide.append(userImage)
 
+  const title = document.createElement('h1')
+  title.textContent = 'Zakr Nem'
+
+  const description = document.createElement('p')
+  description.textContent = `I'm currently studying to become a Full Stack Developer.`
+
   const textSide = document.createElement('div')
-  textSide.className = 'about-text'
-  textSide.textContent = 'Zakr Nem'
+  textSide.append(title, description)
 
   about.append(imageSide, textSide)
   body.insertBefore(about, content)

@@ -33,3 +33,33 @@ header > button {
     object-fit: cover;
     object-position: 100% 50%;
 }
+
+.work {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.work > h2 {
+    align-self: center;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50ch, 1fr));
+    gap: 1.5rem;
+}
+
+.project {
+    display: grid;
+    border: solid 1px red;
+    justify-items: center;
+    gap: 1rem;
+}
+
+.project > img {
+    width: 40ch;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
